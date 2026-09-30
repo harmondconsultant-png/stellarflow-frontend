@@ -42,6 +42,19 @@ export {
 } from "./SEP38RateChart";
 export { SEP24StatusTimeline, type SEP24StatusTimelineProps, type SEP24Transaction, type SEP24TransactionStatus } from "./SEP24StatusTimeline";
 export { SEP24InteractiveModal, type SEP24InteractiveModalProps } from "./SEP24InteractiveModal";
+export {
+  SEP31MerchantCheckout,
+  SEP31_RATE_LOCK_SECONDS,
+  sumLineItems,
+  convertFiatToToken,
+  isValidReceiptEmail,
+  normalizeSettlement,
+  type SEP31MerchantCheckoutProps,
+  type SEP31Merchant,
+  type SEP31LineItem,
+  type SEP31Settlement,
+  type SEP31SettlementStatus,
+} from "./SEP31MerchantCheckout";
 export { CorridorStatusMap, DEFAULT_CORRIDORS, type CorridorStatusMapProps, type RemittanceCorridor, type CorridorRegion, type AnchorStatus } from "./CorridorStatusMap";
 export {
   FiatRampDrawer,
